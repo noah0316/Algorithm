@@ -1,6 +1,6 @@
 # Algorithm
 <p align="center">
-    <img src="./1.gif" width="400" height="400" />
+    <img src="./1.gif" width="450" height="300" />
 </p>
 
 ### [백준 온라인 저지](https://www.acmicpc.net/) 문제 풀이
