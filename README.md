@@ -17,4 +17,5 @@
 
 #### Problems which I solved
 ### Greedy
-> 큰 수의 법칙
+> 큰 수의 법칙<br/>
+> 숫자 카드 게임<br/>
