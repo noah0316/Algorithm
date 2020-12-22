@@ -19,7 +19,9 @@
 
 
 #### Problems which I solved
-### Greedy
+### Greedy - 당장 좋은 것만 선택하는 그리디
 > 큰 수의 법칙<br/>
 > 숫자 카드 게임<br/>
 > 1이 될때까지<br/>
+### Implementation - 아이디어를 코드로 바꾸는 구현
+> 상하좌우<br/>
