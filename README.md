@@ -20,8 +20,8 @@
 
 #### Problems which I solved
 ### Greedy - 당장 좋은 것만 선택하는 그리디
-> 큰 수의 법칙<br/>
-> 숫자 카드 게임<br/>
-> 1이 될때까지<br/>
+> [큰 수의 법칙](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Greedy/2.py)<br/>
+> [숫자 카드 게임](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Greedy/3.py)<br/>
+> [1이 될때까지](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Greedy/4.py)<br/>
 ### Implementation - 아이디어를 코드로 바꾸는 구현
-> 상하좌우<br/>
+> [상하좌우](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Implementation/1.py)<br/>
