@@ -25,3 +25,4 @@
 > [1이 될때까지](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Greedy/4.py)<br/>
 ### Implementation - 아이디어를 코드로 바꾸는 구현
 > [상하좌우](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Implementation/1.py)<br/>
+> [시각](https://github.com/noah0316/Algorithm/blob/master/Dongbin_Na-python_for_coding_test/Implementation/2.py)<br/>
