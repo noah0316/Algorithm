@@ -8,7 +8,8 @@
 #### Problems which I solved
 
 > 1000 A+B<br/>
-> 1001 A-B<br/>  
+> 1001 A-B<br/>
+> 1008 A/B<br/>  
 
 <br>
 
