@@ -4,7 +4,7 @@
     <img src="./1.gif" width="450" height="300" />
 </p>
 
-### [프로그래머스](https://programmers.co.kr/) 문제 풀이
+### [프로그래머스](https://programmers.co.kr/) 문제 풀이
 
 ---
 
