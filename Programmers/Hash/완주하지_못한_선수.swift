@@ -29,60 +29,23 @@
  예제 #3
  mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
  */
- 
+
 import Foundation
 
 func solution(_ participant: [String], _ completion: [String]) -> String {
     var answer = ""
-    var wholeDict = initWholeDict(participant, completion)
-    wholeDict = addParticipantValue(wholeDict, participant)
-    wholeDict = addCompletionValue(wholeDict, completion)
+    var participant = participant
+    var completion = completion
+    participant.sort()
+    completion.sort()
     
-    for (key, value) in wholeDict {
-        let isOdd: Bool
-        isOdd = value % 2 != 0 ? true : false
-        
-        if isOdd {
-            answer = key
+    for i in 0..<completion.count {
+        if (participant[i] != completion[i]) {
+            answer = participant[i]
+            return answer
         }
     }
     
+    answer = participant[participant.count - 1]
     return answer
-}
-
-func initWholeDict(_ participant: [String], _ completion: [String]) -> [String: Int] {
-    var wholeDict = [String: Int]()
-    
-    for element in participant {
-        wholeDict[element] = 0
-    }
-    
-    for element in completion {
-        wholeDict[element] = 0
-    }
-    
-    return wholeDict
-}
-
-func addParticipantValue(_ wholeDict: [String: Int], _ participant: [String]) -> [String: Int] {
-    var wholeDict = wholeDict
-    
-    for element in participant {
-        let updateValue = wholeDict[element]! + 1
-        wholeDict.updateValue(updateValue, forKey: element)
-    }
-    
-    return wholeDict
-}
-
-
-func addCompletionValue(_ wholeDict: [String: Int], _ completion: [String]) -> [String: Int] {
-    var wholeDict = wholeDict
-    
-    for element in completion {
-        let updateValue = wholeDict[element]! + 1
-        wholeDict.updateValue(updateValue, forKey: element)
-    }
-
-    return wholeDict
 }
