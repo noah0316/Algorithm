@@ -16,7 +16,8 @@
 
 #### Hash
 
-> [완주하지 못한 선수](https://github.com/noah0316/Algorithm/blob/master/Programmers/Hash/완주하지_못한_선수.swift)
+> [완주하지 못한 선수](https://github.com/noah0316/Algorithm/blob/master/Programmers/Hash/완주하지_못한_선수.swift)  
+> [전화번호 목록](https://github.com/noah0316/Algorithm/blob/master/Programmers/Hash/전화번호_목록.swift)
 
 ### [백준 온라인 저지](https://www.acmicpc.net/) 문제 풀이
 
