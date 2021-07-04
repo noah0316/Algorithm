@@ -59,3 +59,20 @@ func solution(_ phone_book: [String]) -> Bool {
     
     return answer
 }
+
+// -------- 다른 풀이 --------
+func solution(_ phone_book: [String]) -> Bool {
+    var answer = true
+    
+    for phone_number in phone_book {
+        var temp = ""
+        for number in phone_number {
+            temp += String(number)
+            if phone_book.contains(temp) && temp != phone_number {
+                answer = false
+            }
+        }
+    }
+
+    return answer
+}
