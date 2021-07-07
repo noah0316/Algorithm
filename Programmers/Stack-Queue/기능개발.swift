@@ -36,27 +36,16 @@ progresses	speeds	return
 import Foundation
 
 func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
-    var toDo = [Int](repeating: 0, count: progresses.count)
     var dayCount = [Int](repeating: 0, count: progresses.count)
     var releaseDate = [Int]()
-
+    
     // calculate progresses remaining date
     for i in 0..<progresses.count {
-        toDo[i] = 100 - progresses[i]
+        let progress = Double(progresses[i])
+        let speed = Double(speeds[i])
+        dayCount[i] = Int(ceil((100 - progress) / speed))
     }
-
-    for i in 0..<speeds.count {
-        let div = toDo[i] / speeds[i]
-        let mod = toDo[i] % speeds[i]
-
-        if (mod == 0) {
-            dayCount[i] = div
-        } else if mod != 0 {
-            dayCount[i] = div + 1
-        }
-
-    }
-
+    
     var prevItem = 0
     for curItem in dayCount {
         if (prevItem < curItem) {
@@ -67,7 +56,6 @@ func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
             releaseDate.removeLast()
             releaseDate.append(insertItem)
         }
-
     }
 
     return releaseDate
