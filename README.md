@@ -21,7 +21,8 @@
 
 #### Stack / Queue
 
-> [기능개발](https://github.com/noah0316/Algorithm/blob/master/Programmers/Stack-Queue/기능개발.swift)
+> [기능개발](https://github.com/noah0316/Algorithm/blob/master/Programmers/Stack-Queue/기능개발.swift)  
+> [다리를 지나는 트럭](https://github.com/noah0316/Algorithm/blob/master/Programmers/Stack-Queue/다리를_지나는_트럭.swift)
 
 ### [백준 온라인 저지](https://www.acmicpc.net/) 문제 풀이
 
