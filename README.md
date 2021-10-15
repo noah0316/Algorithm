@@ -66,3 +66,7 @@
 #### Dynamic Programming
 
 > [Floyd–Warshall algorithm](https://github.com/noah0316/Algorithm/blob/master/Algorithm/DynamicProgramming/floyd.swift)
+
+#### Sorting Algorithm
+
+> [Merge Sort](https://github.com/noah0316/Algorithm/blob/master/Algorithm/Sorting/mergeSort.swift)
