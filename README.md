@@ -4,6 +4,15 @@
     <img src="./1.gif" width="450" height="300" />
 </p>
 
+## 자료구조 이론
+
+---
+
+### 배열
+
+- [배열](https://github.com/noah0316/Algorithm/blob/master/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Array/Array.md)
+- [배열 Apple 공식문서 정리](https://github.com/noah0316/Algorithm/blob/master/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Array/Swift-Array-%EA%B3%B5%EC%8B%9D%EB%AC%B8%EC%84%9C.md)
+
 ### [프로그래머스](https://programmers.co.kr/) 문제 풀이
 
 ---
