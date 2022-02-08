@@ -23,13 +23,13 @@ class Solution {
         var minStockPrice = Int.max
 
         for index in prices.indices {
-            let todayStockPrice = prices[index]
+            let currentStockPrice = prices[index]
 
-            if minStockPrice > todayStockPrice {
-                minStockPrice = todayStockPrice
+            if minStockPrice > currentStockPrice {
+                minStockPrice = currentStockPrice
             }
 
-            let currentProfit = todayStockPrice - minStockPrice
+            let currentProfit = currentStockPrice - minStockPrice
 
             if maxProfit < currentProfit {
                 maxProfit = currentProfit
