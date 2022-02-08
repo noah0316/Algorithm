@@ -22,7 +22,8 @@
 #### Array
 
 > [Two Sum](https://github.com/noah0316/Algorithm/blob/master/LeetCode/Array/twoSum.swift)  
-> [Best Time to Buy and Sell Stock](https://github.com/noah0316/Algorithm/blob/master/LeetCode/Array/bestTimeToBuyAndSellStock.swift)
+> [Best Time to Buy and Sell Stock](https://github.com/noah0316/Algorithm/blob/master/LeetCode/Array/bestTimeToBuyAndSellStock.swift)  
+> [Contains Duplicate](https://github.com/noah0316/Algorithm/blob/master/LeetCode/Array/containsDuplicate.swift)
 
 ### [프로그래머스](https://programmers.co.kr/) 문제 풀이
 
