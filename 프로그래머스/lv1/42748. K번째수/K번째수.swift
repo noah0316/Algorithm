@@ -9,13 +9,8 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
         let j = command[1] - 1
         let k = command[2] - 1
         
-        let kthNumber = getKthNumber(array[i...j], k)
-        answer.append(kthNumber)
+        let sortedSubArray = array[i...j].sorted()
+        answer.append(sortedSubArray[k])
     }
     return answer
-}
-
-func getKthNumber(_ subArray: ArraySlice<Int>, _ k: Int) -> Int {
-    let sortedSubArray = subArray.sorted()
-    return sortedSubArray[k]
 }
