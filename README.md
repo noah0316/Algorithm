@@ -41,7 +41,8 @@
 
 > [완주하지 못한 선수](https://github.com/noah0316/Algorithm/blob/master/Programmers/Hash/완주하지_못한_선수.swift)  
 > [전화번호 목록](https://github.com/noah0316/Algorithm/blob/master/Programmers/Hash/전화번호_목록.swift)  
-> [위장](https://github.com/noah0316/Algorithm/tree/master/Programmers/Hash/42578.%E2%80%85%EC%9C%84%EC%9E%A5)
+> [위장](https://github.com/noah0316/Algorithm/tree/master/Programmers/Hash/42578.%E2%80%85%EC%9C%84%EC%9E%A5)  
+> [베스트앨범](https://github.com/noah0316/Algorithm/tree/master/Programmers/Hash/42579.베스트앨범)
 
 #### Stack / Queue
 
