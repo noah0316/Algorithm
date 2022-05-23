@@ -9,7 +9,6 @@ func solution(_ numbers:[Int]) -> String {
         judgeMaxNumber(lhs, rhs)
     }
     
-    
     if sortedStringNumbers[0] == "0" {
         return "0"
     }
@@ -20,7 +19,6 @@ func solution(_ numbers:[Int]) -> String {
 func judgeMaxNumber(_ lhs: String, _ rhs: String) -> Bool {
     if let prefixLhs = Int("\(lhs)\(rhs)"),
        let prefixRhs = Int("\(rhs)\(lhs)") {
-        
         return prefixLhs > prefixRhs
     }
     return false

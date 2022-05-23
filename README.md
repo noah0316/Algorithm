@@ -51,7 +51,8 @@
 
 #### Sort
 
-> [K번째수](https://github.com/noah0316/Algorithm/tree/master/Programmers/Sort/42748.k%eb%b2%88%ec%a7%b8%ec%88%98)
+> [K번째수](https://github.com/noah0316/Algorithm/tree/master/Programmers/Sort/42748.%E2%80%85K%EB%B2%88%EC%A7%B8%EC%88%98)  
+> [가장 큰 수](https://github.com/noah0316/Algorithm/tree/master/Programmers/Sort/42748.%E2%80%85K%EB%B2%88%EC%A7%B8%EC%88%98)
 
 ### [백준 온라인 저지](https://www.acmicpc.net/) 문제 풀이
 
